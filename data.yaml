@@ -1,0 +1,20 @@
+# YOLOv5 data configuration for harmful meme detection
+# Dataset structure expected:
+# - images/train/
+# - images/val/
+# - labels/train/
+# - labels/val/
+
+# Train/val/test sets
+train: ./data/images/train
+val: ./data/images/val
+test: ./data/images/test  # Optional
+
+# Number of classes
+nc: 2
+
+# Class names
+names: ['harmful', 'normal']
+
+# Download script (optional)
+# download: bash ./scripts/download_dataset.sh
